@@ -1,0 +1,10 @@
+Explanation regarding the chosen algorithm (Greedy) : greedyVertexCover()
+
+- first, we have a list in which we will stock nodes with maximum degree :  solution = []
+- and, until the dictionary containing all the edges remains empty we perform the following:
+   *we calculate the maximum degree vertex using another function called getMaxDegreeVertex()
+   *we add the vertex to the solution list
+   *then, we remove the key corresponding to this vertex from the dictionary and all the edges containing this vertex
+   *this process is repeated through a while, until the dictionary remains empty
+   
+ = the whole idea is to display all the vertices with maximum degree, until there is no remaining edge uncovered 

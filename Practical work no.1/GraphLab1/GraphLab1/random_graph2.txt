@@ -1,0 +1,1 @@
+Error: Maximum number of edges is (n)*(n) !!
